@@ -1,0 +1,118 @@
+.header {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header-btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.button {
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    background-image: linear-gradient(0, rgb(255, 123, 0), rgb(186, 6, 6));
+    height: 120px;
+    color: white;
+    margin: 0 auto;
+}
+
+.product {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.product-btn {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.tb {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: white;
+}
+
+.tg {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: white;
+}
+
+.NVT {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: white;
+}
+.search-box {
+  display: flex;
+  width: 800px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+  background-color: white;
+}
+
+.search-box input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+.search-filter {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  border-left: 1px solid #ddd;
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+}
+
+.search-btn {
+  background-color: #f53d2d;
+  border: none;
+  color: white;
+  padding: 0 15px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.search-btn i {
+  font-size: 14px;
+}
+.qr{
+    width: 100px;
+    height: 100px;
+    border-radius: 12px;
+    padding: 10px;
+    position: absolute;
+}
